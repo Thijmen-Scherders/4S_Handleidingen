@@ -20,12 +20,14 @@
                        alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></li>
                 @yield('breadcrumb')
             </ul>
-
+    	    
+            <div class="brands">
             @if ( isset($_GET['q']) )
                 @include('includes.search_results')
             @else
                 @yield('content')
             @endif
+            </div>
 
             <ul class="breadcrumb">
                 <li>
@@ -36,14 +38,16 @@
 
         </div>
 
-        <div class="row">
-            @include('includes.footer')
-        </div>
+        
 
     </div>
 
 
 </div>
+
+        <div class="row">
+            @include('includes.footer')
+        </div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
