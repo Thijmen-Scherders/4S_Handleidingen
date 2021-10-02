@@ -2,10 +2,12 @@
 <footer>
 	© {{ __('misc.copyright') }}
   <a href="#">Over ons</a>
-  <p></p>
+  <p> Wij zijn een website waar je handleidingen kan opzoeken</p>
   <a href="#">contact gegevns</a>
-  <p></p>
+  <p>tel +31 123456789</p>
   <a href="#">social links</a>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="https://www.instagram.com/accounts/login/">Instagram</a>
 </footer>
 
 
