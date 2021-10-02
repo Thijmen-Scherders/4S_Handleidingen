@@ -4,6 +4,7 @@
         <a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">
             <button>{{ __('misc.homepage_title') }}</button>
         </a>
+       
         @yield('introduction_text')
     </div>
 </div>
