@@ -16,7 +16,7 @@ return [
     'home' => "Home",
 'home_alt' => "Download your manual homepage: Free user guides!",
 'homepage_title' => "Download your manual",
-'copyright' => "Copyright 2021
+'copyright' => "Copyright 2022
  Avarix",
 'download_manual' => "Click here to download the manual",
 'download_manual_alt' => "Download your manual here",
